@@ -26,33 +26,31 @@ $ff-2: "Outfit", sans-serif;
 }
 body {
   background-color: $Stone-100;
-  position: relative;
-  min-height: 100%;
-  /*display: flex;
+  display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: center;*/
+  align-items: center;
 }
 
 .container {
   background-color: $White;
+  display:flex;
+  flex-direction: column;
   position: absolute;
+  align-items: center;
   top: 818.867px;
   left: 50%;
   transform: translate(-50%, -50%);
-  /*display: flex;
-  text-align: left;*/
   padding: 40px;
   margin-top: 60px;
-  justify-content: center;
-  flex-direction: column;
   width: 735px;
-  height: 1710px;
+  height: 1700px;
   border-radius: 12px;
 }
 
 img {
   width: 655px;
+  overflow: hidden;
   height: 300px;
   border-radius: 12px;
 }
