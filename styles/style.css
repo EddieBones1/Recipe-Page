@@ -1,0 +1,122 @@
+/*importing the fonts */
+@import url("https://fonts.googleapis.com/css2?family=Young+Serif&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap");
+/*Setting my global variables in SCSS */
+/* reset it to these properties for all browsers */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: hsl(30, 54%, 90%);
+  position: relative;
+  min-height: 100%;
+  /*display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;*/
+}
+
+.container {
+  background-color: hsl(0, 0%, 100%);
+  position: absolute;
+  top: 818.867px;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  /*display: flex;
+  text-align: left;*/
+  padding: 40px;
+  margin-top: 60px;
+  justify-content: center;
+  flex-direction: column;
+  width: 735px;
+  height: 1710px;
+  border-radius: 12px;
+}
+
+img {
+  width: 655px;
+  height: 300px;
+  border-radius: 12px;
+}
+
+h1 {
+  padding-top: 17px;
+  font-family: "young serif", serif;
+  line-height: 1.6;
+}
+
+p {
+  font-size: 1em;
+  font-family: "Outfit", sans-serif;
+  line-height: 1.6;
+  color: hsl(30, 10%, 34%);
+  margin: 10px 0;
+}
+
+.main {
+  margin-top: 18px;
+}
+
+.bg-preparation {
+  background-color: hsl(330, 100%, 98%);
+  height: 176px;
+  width: 655px;
+  padding-left: 29px;
+  padding-top: 30px;
+  margin: 37px 0;
+  position: relative;
+  /*height:176px;*/
+  border-radius: 12px;
+}
+
+h3 {
+  color: hsl(332, 51%, 32%);
+  font-family: "Outfit", sans-serif;
+  font-weight: 700;
+  line-height: 1.6;
+}
+
+.preparation {
+  margin-left: 39px;
+  line-height: 1.6;
+  color: hsl(30, 10%, 34%);
+}
+
+li::marker {
+  color: hsl(332, 51%, 32%);
+}
+
+li {
+  padding-left: 19px;
+  line-height: 1.6;
+}
+
+h2 {
+  color: hsl(14, 45%, 36%);
+  line-height: 1.6;
+  font-family: "young-serif", serif;
+  font-weight: 700;
+  margin-left: -16px;
+}
+
+hr {
+  margin: 32px;
+  border: 0.5px solid;
+  color: hsl(30, 18%, 87%);
+}
+
+.ingredients {
+  margin-top: -20px;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}/*# sourceMappingURL=style.css.map */
