@@ -1,6 +1,6 @@
 /*importing the fonts */
-@import url('https://fonts.googleapis.com/css2?family=Young+Serif&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Young+Serif&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap");
 
 /*Setting my global variables in SCSS */
 $White: hsl(0, 0%, 100%);
@@ -26,6 +26,7 @@ $ff-2: "Outfit", sans-serif;
 }
 body {
   background-color: $Stone-100;
+  font-family: $ff-2;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -34,7 +35,7 @@ body {
 
 .container {
   background-color: $White;
-  display:flex;
+  display: flex;
   flex-direction: column;
   position: absolute;
   align-items: center;
@@ -44,7 +45,7 @@ body {
   padding: 40px;
   margin-top: 60px;
   width: 735px;
-  height: 1700px;
+  height: 1500px;
   border-radius: 12px;
 }
 
@@ -59,13 +60,31 @@ h1 {
   font-family: $ff-1;
   line-height: 1.6;
 }
+
+h2 {
+  color: $Brown-800;
+  line-height: 1.6;
+  font-family: "young-serif", serif;
+  font-weight: $Font-weight-700;
+  margin-left: 0;
+  align-content: left;
+}
+
+h3 {
+  color: $Rose-800;
+  font-family: "Outfit", sans-serif;
+  font-weight: $Font-weight-700;
+  line-height: 1.6;
+}
+
 p {
   font-size: $fs-paragraph;
-  font-family:$ff-2;
+  font-family: $ff-2;
   line-height: 1.6;
   color: $Stone-600;
   margin: 10px 0;
 }
+
 .main {
   margin-top: 18px;
 }
@@ -81,41 +100,62 @@ p {
   /*height:176px;*/
   border-radius: 12px;
 }
-h3 {
-  color: $Rose-800;
-  font-family: "Outfit", sans-serif;
-  font-weight: $Font-weight-700;
-  line-height: 1.6;
-}
+
 .preparation {
   margin-left: 39px;
   line-height: 1.6;
   color: $Stone-600;
 }
+
+.ingredients {
+  margin-top: -20px;
+}
+
+ul {
+  padding-left: 19px;
+  line-height: 1.6;
+  margin-left: 16px;
+}
+
 li::marker {
   color: $Rose-800;
 }
-li {
-  padding-left: 19px;
-  line-height: 1.6;
-}
 
-h2 {
-  color: $Brown-800;
+ol {
+  margin-left: 16px;
   line-height: 1.6;
-  font-family: 'young-serif', serif;
-  font-weight: $Font-weight-700;
-  margin-left: -16px;
 }
 
 hr {
-  margin: 32px;
+  margin: 16px 0;
   border: 0.5px solid;
-  color:$Stone-150;
+  color: $Stone-150;
 }
 
-.ingredients{
-    margin-top:-20px;
+table {
+  line-height: 1.6;
+  padding-left: 33px;
+  border-collapse: collapse;
+  width: 100%;
+}
+tr:not(:last-of-type) {
+  border-bottom: 1px solid $Stone-150;
+}
+th {
+  text-align: left;
+  padding: 12px;
+  padding-left: 33px;
+  font-weight: $Font-weight-400;
+  color: $Stone-600;
+}
+
+.amount {
+  color: $Rose-800;
+  font-weight: $Font-weight-700;
+  padding-left: 244px;
+}
+.no-border {
+  border-top: 1px solid $Stone-150;
 }
 
 .attribution {
