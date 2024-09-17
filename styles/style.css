@@ -34,7 +34,7 @@ body {
 }
 
 img {
-  width: 634px;
+  width: 39.625rem;
   overflow: hidden;
   height: 18.938rem;
   border-radius: 0.75rem;
@@ -177,12 +177,19 @@ th {
     top: -6.81rem;
     border-radius: 0;
   }
-  h1, h2, h3 {
+  h1,
+  h2,
+  h3 {
     font-size: 1.25rem;
   }
-  p, .preparation, .ingredients, ul, ol, table {
+  p,
+  .preparation,
+  .ingredients,
+  ul,
+  ol,
+  table {
     font-size: 0.875rem;
-    line-height: 1.6;
+    line-height: 1.5;
   }
   .bg-preparation {
     width: 19.375rem;
