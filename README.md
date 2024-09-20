@@ -26,8 +26,8 @@ This is a solution to the [Recipe page challenge on Frontend Mentor](https://www
 <img src="design/mobile-design.png" alt="Mobile Design" width="300"/>
 
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- [Solution URL:](https://www.frontendmentor.io/solutions/recipe-page-iHCfhR5Rpt)
+- [Live Site URL:](https://eddiebones1.github.io/Recipe-Page/)
 
 ## My process
 
